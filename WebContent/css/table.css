@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.table{
+	border-collapse: collapse;
+	text-align: center;
+	width: 100%;
+	margin:0 auto;
+	align:center;
+}
+.table,.table th,.table td{
+  	border: 1px solid #98bf21;
+}
+.table th{
+	background-color: #A7C942;   
+	font-size: 1.1em;
+   	color: #fff;
+   	text-align:center;
+}
+.table tr:NTH-CHILD(2n+1){
+	 background-color:#EAF2D3;
+}
